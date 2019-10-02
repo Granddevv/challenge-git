@@ -30,3 +30,9 @@ How to attempt this challenge:
 
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
 
+## Solution
+
+1) git rebase --onto origin/feature/useragent origin/master
+2) git rebase --onto origin/feature/base64 origin/master
+3) Resolve conflicts manually && git rebase --continue
+4) git push
